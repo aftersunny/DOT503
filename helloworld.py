@@ -1,4 +1,4 @@
-#modify test2
+#modify test
 import sys
 
 def helloworld(out):
