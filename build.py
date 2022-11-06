@@ -1,5 +1,9 @@
 #   -*- coding: utf-8 -*-
 #modify test
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 from pybuilder.core import use_plugin, init
 
 use_plugin("python.core")
