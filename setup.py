@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #   -*- coding: utf-8 -*-
+#modify test
 
 from setuptools import setup
 from setuptools.command.install import install as _install
