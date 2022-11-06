@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20221106201701" tests="6" file="helloworld_tests.py" time="0.012" timestamp="2022-11-06T20:17:01" failures="0" errors="6" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test2" time="0.003" timestamp="2022-11-06T20:17:01">
+		<error type="NameError" message="name 'closure' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 587, in run
+    self._callSetUp()
+  File "/usr/lib/python3.10/unittest/case.py", line 546, in _callSetUp
+    self.setUp()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 33, in setUp
+    self.treasure_chest = closure(self.amount)
+NameError: name 'closure' is not defined
+]]></error>
+	</testcase>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_isupper" time="0.002" timestamp="2022-11-06T20:17:01">
+		<error type="NameError" message="name 'closure' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 587, in run
+    self._callSetUp()
+  File "/usr/lib/python3.10/unittest/case.py", line 546, in _callSetUp
+    self.setUp()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 33, in setUp
+    self.treasure_chest = closure(self.amount)
+NameError: name 'closure' is not defined
+]]></error>
+	</testcase>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.002" timestamp="2022-11-06T20:17:01">
+		<error type="NameError" message="name 'closure' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 587, in run
+    self._callSetUp()
+  File "/usr/lib/python3.10/unittest/case.py", line 546, in _callSetUp
+    self.setUp()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 33, in setUp
+    self.treasure_chest = closure(self.amount)
+NameError: name 'closure' is not defined
+]]></error>
+	</testcase>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_split" time="0.002" timestamp="2022-11-06T20:17:01">
+		<error type="NameError" message="name 'closure' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 587, in run
+    self._callSetUp()
+  File "/usr/lib/python3.10/unittest/case.py", line 546, in _callSetUp
+    self.setUp()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 33, in setUp
+    self.treasure_chest = closure(self.amount)
+NameError: name 'closure' is not defined
+]]></error>
+	</testcase>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_upper" time="0.002" timestamp="2022-11-06T20:17:01">
+		<error type="NameError" message="name 'closure' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 587, in run
+    self._callSetUp()
+  File "/usr/lib/python3.10/unittest/case.py", line 546, in _callSetUp
+    self.setUp()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 33, in setUp
+    self.treasure_chest = closure(self.amount)
+NameError: name 'closure' is not defined
+]]></error>
+	</testcase>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_valueContains" time="0.002" timestamp="2022-11-06T20:17:01">
+		<error type="NameError" message="name 'closure' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 587, in run
+    self._callSetUp()
+  File "/usr/lib/python3.10/unittest/case.py", line 546, in _callSetUp
+    self.setUp()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 33, in setUp
+    self.treasure_chest = closure(self.amount)
+NameError: name 'closure' is not defined
+]]></error>
+	</testcase>
+</testsuite>

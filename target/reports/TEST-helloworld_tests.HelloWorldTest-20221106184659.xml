@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20221106184659" tests="5" file="helloworld_tests.py" time="0.009" timestamp="2022-11-06T18:46:59" failures="0" errors="1" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_isupper" time="0.001" timestamp="2022-11-06T18:46:59"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.002" timestamp="2022-11-06T18:46:59"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_split" time="0.001" timestamp="2022-11-06T18:46:59"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_upper" time="0.001" timestamp="2022-11-06T18:46:59"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test2" time="0.004" timestamp="2022-11-06T18:46:59">
+		<error type="AttributeError" message="'HelloWorldTest' object has no attribute 'write'"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 13, in test2
+    self.assertIn('world', self.write)
+AttributeError: 'HelloWorldTest' object has no attribute 'write'
+]]></error>
+	</testcase>
+</testsuite>

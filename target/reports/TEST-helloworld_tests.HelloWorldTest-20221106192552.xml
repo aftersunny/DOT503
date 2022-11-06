@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20221106192552" tests="5" file="helloworld_tests.py" time="0.008" timestamp="2022-11-06T19:25:52" failures="0" errors="1" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_isupper" time="0.001" timestamp="2022-11-06T19:25:52"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.001" timestamp="2022-11-06T19:25:52"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_split" time="0.001" timestamp="2022-11-06T19:25:52"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_upper" time="0.001" timestamp="2022-11-06T19:25:52"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test2" time="0.004" timestamp="2022-11-06T19:25:52">
+		<error type="NameError" message="name 'mock_stdout' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 14, in test2
+    string = mock_stdout.getvalue()
+NameError: name 'mock_stdout' is not defined
+]]></error>
+	</testcase>
+</testsuite>

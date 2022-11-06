@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20221106190417" tests="4" file="helloworld_tests.py" time="0.016" timestamp="2022-11-06T19:04:18" failures="1" errors="0" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_isupper" time="0.001" timestamp="2022-11-06T19:04:18"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_split" time="0.001" timestamp="2022-11-06T19:04:18"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_upper" time="0.002" timestamp="2022-11-06T19:04:18"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.012" timestamp="2022-11-06T19:04:18">
+		<failure type="VerificationError" message="
+Wanted but not invoked:
+
+    write('Hello world of Python\n')
+
+Instead got:
+
+    Nothing
+
+"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 10, in test_should_issue_hello_world_message
+    verify(out).write("Hello world of Python\n")
+  File "/usr/lib/python3/dist-packages/mockito/invocation.py", line 242, in __call__
+    self.verification.verify(self, len(matched_invocations))
+  File "/usr/lib/python3/dist-packages/mockito/verification.py", line 93, in verify
+    raise VerificationError(
+mockito.verification.VerificationError: 
+Wanted but not invoked:
+
+    write('Hello world of Python\n')
+
+Instead got:
+
+    Nothing
+
+
+]]></failure>
+	</testcase>
+</testsuite>

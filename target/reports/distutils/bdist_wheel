@@ -1,0 +1,54 @@
+running clean
+'build/temp.linux-x86_64-cpython-310' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.10' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+copying helloworld.py -> build/lib
+running build_scripts
+creating build/scripts-3.10
+copying and adjusting scripts/hello-pybuilder -> build/scripts-3.10
+changing mode of build/scripts-3.10/hello-pybuilder from 664 to 775
+/home/aftersun/Downloads/PYTHON/.pybuilder/plugins/cpython-3.10.6.final.0/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/helloworld.py -> build/bdist.linux-x86_64/wheel
+running install_egg_info
+running egg_info
+writing helloworld.egg-info/PKG-INFO
+writing dependency_links to helloworld.egg-info/dependency_links.txt
+writing namespace_packages to helloworld.egg-info/namespace_packages.txt
+writing top-level names to helloworld.egg-info/top_level.txt
+reading manifest file 'helloworld.egg-info/SOURCES.txt'
+writing manifest file 'helloworld.egg-info/SOURCES.txt'
+Copying helloworld.egg-info to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info
+Copying PKG-INFO to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info/PKG-INFO
+Copying top_level.txt to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info/top_level.txt
+Copying namespace_packages.txt to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info/namespace_packages.txt
+Copying SOURCES.txt to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info/SOURCES.txt
+Copying zip-safe to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info/zip-safe
+Copying dependency_links.txt to build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0-py3.10.egg-info/dependency_links.txt
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0.data
+creating build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0.data/scripts
+copying build/scripts-3.10/hello-pybuilder -> build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0.data/scripts
+changing mode of build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0.data/scripts/hello-pybuilder to 775
+creating build/bdist.linux-x86_64/wheel/helloworld-1.0.dev0.dist-info/WHEEL
+creating 'dist/helloworld-1.0.dev0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'helloworld.py'
+adding 'helloworld-1.0.dev0.data/scripts/hello-pybuilder'
+adding 'helloworld-1.0.dev0.dist-info/METADATA'
+adding 'helloworld-1.0.dev0.dist-info/WHEEL'
+adding 'helloworld-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'helloworld-1.0.dev0.dist-info/top_level.txt'
+adding 'helloworld-1.0.dev0.dist-info/zip-safe'
+adding 'helloworld-1.0.dev0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel

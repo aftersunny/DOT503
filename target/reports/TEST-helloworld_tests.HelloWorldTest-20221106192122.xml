@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20221106192122" tests="5" file="helloworld_tests.py" time="0.009" timestamp="2022-11-06T19:21:23" failures="1" errors="0" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_isupper" time="0.001" timestamp="2022-11-06T19:21:23"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.001" timestamp="2022-11-06T19:21:23"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_split" time="0.001" timestamp="2022-11-06T19:21:23"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_upper" time="0.001" timestamp="2022-11-06T19:21:23"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test2" time="0.004" timestamp="2022-11-06T19:21:23">
+		<failure type="AssertionError" message="'world' != None"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/usr/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/aftersun/Downloads/PYTHON/src/unittest/python/helloworld_tests.py", line 16, in test2
+    self.assertEqual(substring, string)
+  File "/usr/lib/python3.10/unittest/case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python3.10/unittest/case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 'world' != None
+]]></failure>
+	</testcase>
+</testsuite>
