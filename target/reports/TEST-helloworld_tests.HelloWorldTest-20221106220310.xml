@@ -1,11 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20221106220310" tests="5" file="helloworld_tests.py" time="0.022" timestamp="2022-11-06T22:03:11" failures="2" errors="0" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_isupper" time="0.001" timestamp="2022-11-06T22:03:11"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.002" timestamp="2022-11-06T22:03:11"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_split" time="0.002" timestamp="2022-11-06T22:03:11"/>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test2" time="0.012" timestamp="2022-11-06T22:03:11">
+		<failure type="VerificationError" message="
+Wanted but not invoked:
 
-Running tests...
-----------------------------------------------------------------------
-F...F
-======================================================================
-FAIL [0.012s]: test2 (helloworld_tests.HelloWorldTest)
-----------------------------------------------------------------------
-Traceback (most recent call last):
+    write('Hello world of Monty Python\n')
+
+Instead got:
+
+    write('Hello world of Python\n')
+
+"><![CDATA[Traceback (most recent call last):
   File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
     yield
   File "/usr/lib/python3.10/unittest/case.py", line 591, in run
@@ -28,11 +36,15 @@ Instead got:
     write('Hello world of Python\n')
 
 
-
-======================================================================
-FAIL [0.006s]: test_upper (helloworld_tests.HelloWorldTest)
-----------------------------------------------------------------------
-Traceback (most recent call last):
+]]></failure>
+	</testcase>
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_upper" time="0.006" timestamp="2022-11-06T22:03:11">
+		<failure type="AssertionError" message="'FOO' != 'FOo'
+- FOO
+?   ^
++ FOo
+?   ^
+"><![CDATA[Traceback (most recent call last):
   File "/usr/lib/python3.10/unittest/case.py", line 59, in testPartExecutor
     yield
   File "/usr/lib/python3.10/unittest/case.py", line 591, in run
@@ -53,10 +65,6 @@ AssertionError: 'FOO' != 'FOo'
 + FOo
 ?   ^
 
-
-----------------------------------------------------------------------
-Ran 5 tests in 0.095s
-
-FAILED (failures=2)
-
-Generating XML reports...
+]]></failure>
+	</testcase>
+</testsuite>
