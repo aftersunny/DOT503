@@ -12,10 +12,10 @@ class HelloWorldTest(unittest.TestCase):
     def test2(self):
         out = mock()
         helloworld(out)
-        verify(out).write("Hello world of Monty Python\n")
+        verify(out).write("Hello world of Python\n")
 
     def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOo')
+        self.assertEqual('foo'.upper(), 'FOO')
 
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())
